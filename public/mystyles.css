@@ -1,0 +1,45 @@
+body {
+    color: #AC2B37;
+    background-color: #F5F5F5;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Verdana, Arial, sans-serif;
+}
+
+table, tr, td, th {
+    border: 1px solid #AC2B37;
+}
+
+tr > * {
+    padding: 1ch;
+}
+
+#wpi {
+    text-align: center;
+}
+
+.squarebullets {
+    list-style-type: square;
+}
+
+nav {
+    text-align: center;
+    background: #AC2B37;
+    font-family: Arial sans-serif;
+}
+
+nav ul, nav li {
+    list-style-type: none;
+    display: inline-block;
+}
+
+nav a {
+    color: #fff;
+    transition: color 2s, background 2s;
+}
+
+nav a:hover {
+    color: lightgrey;
+    background: crimson;
+}
